@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DLLS
+  m_EditorClassIdentifier: 
+  m_GroupName: DLLS
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4def86b0a47220445993fcfc50048978
+  m_SerializeEntries:
+  - m_GUID: 76885ec3715f71c4f963a6184a44321e
+    m_Address: Assets/Source/Global/DLLS/Main.dll.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DLLS
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4962f28ee2d41fc4d9e21a2539c702eb
+    m_Address: Assets/Source/Global/DLLS/TestSystem.dll.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DLLS
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8053fa055af525e4c9f180c70648e292
+    m_Address: Assets/Source/Global/DLLS/TestSystem_2.dll.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DLLS
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29d3c85c2ae0e8e439e1c946c1127afb
+    m_Address: Assets/Source/Global/DLLS/TestSystem_3.dll.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DLLS
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f02291fe95c632d41b291e17290a1c81, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 87612e84fc2244342b6db15966367cb6, type: 2}
+    - {fileID: 11400000, guid: dc98dfd598ddc2d41850c4695d61ec48, type: 2}

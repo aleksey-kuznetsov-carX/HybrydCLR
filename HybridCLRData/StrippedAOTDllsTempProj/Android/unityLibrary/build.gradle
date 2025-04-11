@@ -1,0 +1,174 @@
+apply plugin: 'com.android.library'
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'com.google.firebase.firebase-app-unity-6.16.1', ext:'aar')
+    implementation(name: 'androidx.viewpager.viewpager-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-measurement-connector-18.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-base-17.5.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-crashlytics-unity-6.16.1', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-sdk-17.5.0', ext:'aar')
+    implementation(name: 'androidx.drawerlayout.drawerlayout-1.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-ads-identifier-17.0.0', ext:'aar')
+    implementation(name: 'com.google.android.datatransport.transport-runtime-2.2.4', ext:'aar')
+    implementation(name: 'IngameDebugConsole', ext:'aar')
+    implementation(name: 'com.google.android.datatransport.transport-api-2.2.1', ext:'aar')
+    implementation(name: 'androidx.lifecycle.lifecycle-livedata-2.0.0', ext:'aar')
+    implementation(name: 'common', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-sdk-api-17.5.0', ext:'aar')
+    implementation(name: 'androidx.localbroadcastmanager.localbroadcastmanager-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-analytics-17.5.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-encoders-json-17.0.0', ext:'aar')
+    implementation(name: 'androidx.room.room-runtime-2.1.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-auth-unity-6.16.1', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-installations-interop-16.0.0', ext:'aar')
+    implementation(name: 'androidx.asynclayoutinflater.asynclayoutinflater-1.0.0', ext:'aar')
+    implementation(name: 'com.google.android.datatransport.transport-backend-cct-2.3.1', ext:'aar')
+    implementation(name: 'androidx.arch.core.core-runtime-2.0.1', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-common-19.3.1', ext:'aar')
+    implementation(name: 'androidx.work.work-runtime-2.1.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-base-17.4.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-api-17.5.0', ext:'aar')
+    implementation(name: 'androidx.lifecycle.lifecycle-runtime-2.0.0', ext:'aar')
+    implementation(name: 'androidx.lifecycle.lifecycle-livedata-core-2.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-ads-base-19.5.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-auth-19.3.2', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-basement-17.4.0', ext:'aar')
+    implementation(name: 'androidx.lifecycle.lifecycle-service-2.0.0', ext:'aar')
+    implementation(name: 'androidx.slidingpanelayout.slidingpanelayout-1.0.0', ext:'aar')
+    implementation(name: 'androidx.legacy.legacy-support-core-ui-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-auth-interop-19.0.0', ext:'aar')
+    implementation(name: 'androidx.versionedparcelable.versionedparcelable-1.1.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-ads-19.5.0', ext:'aar')
+    implementation(name: 'androidx.cursoradapter.cursoradapter-1.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-ads-lite-19.5.0', ext:'aar')
+    implementation(name: 'androidx.customview.customview-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-analytics-unity-6.16.1', ext:'aar')
+    implementation(name: 'androidx.coordinatorlayout.coordinatorlayout-1.0.0', ext:'aar')
+    implementation(name: 'googlemobileads-unity', ext:'aar')
+    implementation(name: 'androidx.legacy.legacy-support-core-utils-1.0.0', ext:'aar')
+    implementation(name: 'androidx.lifecycle.lifecycle-viewmodel-2.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-tasks-17.2.0', ext:'aar')
+    implementation(name: 'androidx.loader.loader-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-crashlytics-17.2.2', ext:'aar')
+    implementation(name: 'androidx.documentfile.documentfile-1.0.0', ext:'aar')
+    implementation(name: 'androidx.print.print-1.0.0', ext:'aar')
+    implementation(name: 'androidx.sqlite.sqlite-2.0.1', ext:'aar')
+    implementation(name: 'androidx.sqlite.sqlite-framework-2.0.1', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-stats-17.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-impl-17.5.0', ext:'aar')
+    implementation(name: 'androidx.swiperefreshlayout.swiperefreshlayout-1.0.0', ext:'aar')
+    implementation(name: 'androidx.fragment.fragment-1.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-gass-19.5.0', ext:'aar')
+    implementation(name: 'androidx.core.core-1.2.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-installations-16.3.3', ext:'aar')
+    implementation(name: 'androidx.interpolator.interpolator-1.0.0', ext:'aar')
+    implementation(name: 'billing-5.2.1', ext:'aar')
+    implementation(name: 'androidx.browser.browser-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-components-16.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-17.5.0', ext:'aar')
+    implementation project('GoogleMobileAdsPlugin.androidlib')
+    implementation project('FirebaseCrashlytics.androidlib')
+    implementation project('FirebaseApp.androidlib')
+
+}
+
+android {
+    ndkPath "C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
+
+    compileSdkVersion 34
+    buildToolsVersion '32.0.0'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    defaultConfig {
+        minSdkVersion 22
+        targetSdkVersion 34
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+        }
+        versionCode 1
+        versionName '0.1'
+        consumerProguardFiles 'proguard-unity.txt'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    aaptOptions {
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }
+
+    packagingOptions {
+        doNotStrip '*/armeabi-v7a/*.so'
+        doNotStrip '*/arm64-v8a/*.so'
+    }
+}
+
+def getSdkDir() {
+    Properties local = new Properties()
+    local.load(new FileInputStream("${rootDir}/local.properties"))
+    return local.getProperty('sdk.dir')
+}
+
+def BuildIl2Cpp(String workingDir, String configuration, String architecture, String abi, String[] staticLibraries) {
+    def commandLineArgs = []
+    commandLineArgs.add("--compile-cpp")
+    commandLineArgs.add("--platform=Android")
+    commandLineArgs.add("--architecture=" + architecture)
+    commandLineArgs.add("--outputpath=" + workingDir + "/src/main/jniLibs/" + abi + "/libil2cpp.so")
+    commandLineArgs.add("--baselib-directory=" + workingDir + "/src/main/jniStaticLibs/" + abi)
+    commandLineArgs.add("--incremental-g-c-time-slice=3")
+    commandLineArgs.add("--dotnetprofile=unityaot-linux")
+    commandLineArgs.add("--profiler-report")
+    commandLineArgs.add("--profiler-output-file=" + workingDir + "/build/il2cpp_"+ abi + "_" + configuration + "/il2cpp_conv.traceevents")
+    commandLineArgs.add("--print-command-line")
+    commandLineArgs.add("--data-folder=" + workingDir + "/src/main/Il2CppOutputProject/Source/il2cppOutput/data")
+    commandLineArgs.add("--generatedcppdir=" + workingDir + "/src/main/Il2CppOutputProject/Source/il2cppOutput")
+    commandLineArgs.add("--cachedirectory=" + workingDir + "/build/il2cpp_"+ abi + "_" + configuration + "/il2cpp_cache")
+    commandLineArgs.add("--tool-chain-path=" + android.ndkDirectory)
+    staticLibraries.eachWithIndex {fileName, i->
+        commandLineArgs.add("--additional-libraries=" + workingDir + "/src/main/jniStaticLibs/" + abi + "/" + fileName)
+    }
+    def executableExtension = ""
+    if (org.gradle.internal.os.OperatingSystem.current().isWindows()) {
+        executableExtension = ".exe"
+        commandLineArgs = commandLineArgs*.replace('\"', '\\\"')
+    }
+    exec {
+        executable workingDir + "/src/main/Il2CppOutputProject/IL2CPP/build/deploy/il2cpp" + executableExtension
+        args commandLineArgs
+        environment "ANDROID_SDK_ROOT", getSdkDir()
+    }
+    delete workingDir + "/src/main/jniLibs/" + abi + "/libil2cpp.sym.so"
+    ant.move(file: workingDir + "/src/main/jniLibs/" + abi + "/libil2cpp.dbg.so", tofile: workingDir + "/symbols/" + abi + "/libil2cpp.so")
+}
+
+android {
+    task BuildIl2CppTask {
+        doLast {
+              BuildIl2Cpp(projectDir.toString().replaceAll('\\\\', '/'), 'Debug', 'armv7', 'armeabi-v7a', [  ] as String[]);
+              BuildIl2Cpp(projectDir.toString().replaceAll('\\\\', '/'), 'Debug', 'arm64', 'arm64-v8a', [  ] as String[]);
+        }
+    }
+    afterEvaluate {
+        if (project(':unityLibrary').tasks.findByName('mergeDebugJniLibFolders'))
+            project(':unityLibrary').mergeDebugJniLibFolders.dependsOn BuildIl2CppTask
+        if (project(':unityLibrary').tasks.findByName('mergeReleaseJniLibFolders'))
+            project(':unityLibrary').mergeReleaseJniLibFolders.dependsOn BuildIl2CppTask
+    }
+    sourceSets {
+        main {
+            jni.srcDirs = ["src/main/Il2CppOutputProject"]
+        }
+    }
+}
+
+
+

@@ -1,0 +1,22 @@
+{
+    "name": "TestSystem",
+    "rootNamespace": "",
+    "references": [
+        "Zenject",
+        "UniTask",
+        "TestSystem_2",
+        "Unity.TextMeshPro",
+        "TestSystem_3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
