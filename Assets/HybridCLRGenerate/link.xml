@@ -27,6 +27,14 @@
     <type fullname="SukharevShared.UnityEventGameObject" preserve="all" />
     <type fullname="SukharevShared.UnityEventVector3" preserve="all" />
   </assembly>
+  <assembly fullname="TestSystem_2">
+    <type fullname="Modules.TestModule_2.TestModuleInstaller_2" preserve="all" />
+    <type fullname="Modules.TestModule_2.TestSystem_2" preserve="all" />
+  </assembly>
+  <assembly fullname="TestSystem_3">
+    <type fullname="Modules.TestModule_3.TestModuleInstaller_3" preserve="all" />
+    <type fullname="Modules.TestModule_3.TestSystem_3" preserve="all" />
+  </assembly>
   <assembly fullname="UniRx">
     <type fullname="UniRx.MainThreadDispatcher" preserve="all" />
     <type fullname="UniRx.Observable" preserve="all" />
@@ -89,7 +97,6 @@
     <type fullname="Zenject.ConcreteIdBinderGeneric`1" preserve="all" />
     <type fullname="Zenject.DiContainer" preserve="all" />
     <type fullname="Zenject.FromBinderNonGeneric" preserve="all" />
-    <type fullname="Zenject.InstallerBase" preserve="all" />
     <type fullname="Zenject.Installer`1" preserve="all" />
     <type fullname="Zenject.MonoInstaller" preserve="all" />
     <type fullname="Zenject.MonoInstallerBase" preserve="all" />
