@@ -1,0 +1,2 @@
+# HybrydCLR
+Тестирование возможностей HybrydCLR 
